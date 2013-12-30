@@ -7,7 +7,10 @@ Execution notes:
 - Be sure to get and set an API key from flickr within populate.py
 - Only gets the first 500 images...
 - Requirements include
+    - flickr.py (included!)
     - running instance of redis
+    - redis python package
+    - simplejson
 
 Bugs are:
 - Some errors are not caught (i.e. IOError from socket)
